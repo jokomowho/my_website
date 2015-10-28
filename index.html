@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<header id="home-header">
+  <div class="container">
+    <h1>{{ site.title }}</h1>
+    <ul class="meta">
+      <li>
+        <span>
+          {{ site.tagline }}
+        </span>
+      </li>
+    </ul>
+  </div>
+</header>
+<article>
+  <div class="container">
+    <div class="about">
+      <h2>Meet Joy</h2>
+       <hr><br>
+        <p>Joy is a User Interface and User Design Specialist. She loves the front end design of interfaces and cares greatly about her users. Joy is always looking for ways to make her User Experience skills elicit simple design, easy to use and learn user interfaces.
+        </p>
+        <p>
+        Joy resides in Lagos, Nigeria. In her spare time she's an avid reader, foodie, occasional gamer, traveler and explorer. Her desire is to skydive someday and travel each continent in the world.</p>
+        <br>
+    </div>
+    <h2>Write Ups</h2>
+    <hr>
+
+    <ul class="posts">
+      {% for post in site.posts %}
+        <li>
+          <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+          <span class="meta">
+            {{ post.date | date_to_string }}
+          </span>
+          {{ post.excerpt }}
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</article>
