@@ -344,6 +344,9 @@ ul.posts .meta {
 ul.posts p {
   margin-bottom: 36px;
 }
+ul.posts li h2 {
+  font-size: 21px;
+}
 hr {
   border:1px solid #eee;
 }
