@@ -116,7 +116,6 @@ header:after {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgba(64, 81, 162, .9);
 }
 
 header .container {
@@ -349,4 +348,7 @@ ul.posts li h2 {
 }
 hr {
   border:1px solid #eee;
+}
+.top-container{
+  height:100%; width:100%;background-color: rgba(64, 81, 162, .9);
 }
