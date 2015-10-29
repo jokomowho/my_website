@@ -350,5 +350,32 @@ hr {
   border:1px solid #eee;
 }
 .top-container{
-  height:100%; width:100%;background-color: rgba(64, 81, 162, .9);
+  height:100%; width:100%;
+  background-color: rgba(64, 81, 162, .9);
+}
+.floating-box {
+    display: inline-block;
+    width: 320px;
+    margin: 1px;
+    height: 400px;
+    box-shadow: 2px 2px 5px #eeeeee;
+    margin-top: 3em;
+    border-radius: 5px;
+    color: #7b7b7b;
+}
+.floating-box img{
+  border-radius: 4px;
+}
+.floating-box:first-child{
+  margin-left:5px; margin-right:3em;
+}
+.floating-box:hover{
+  box-shadow:  0 10px 30px 3px rgba(0,0,0,0.15);
+  -webkit-box-shadow:  0 10px 30px 3px rgba(0,0,0,0.15);
+  -o-box-shadow:  0 10px 30px 3px rgba(0,0,0,0.15);
+    -webkit-transition: all 1s ease-in-out;
+  color: #727272;
+}
+.portfolio-images{
+  width:100%;
 }
