@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Drawing Design Inspiration from Design Process."
+title: "Drawing design inspiration from design process"
 date: 2015-10-28 11:29:00
 categories: Design
 featured_image: /images/cover.jpg

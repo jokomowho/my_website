@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<header id="home-header">
+<header id="home-header"  style="background-image: url({{ site.baseurl }}{{ site.sidebar_image }});">
   <div class="top-container">
     <div class="container">
       <h1>{{ site.title }}</h1>
@@ -14,22 +14,21 @@ layout: default
         </li>
       </ul>
     </div>
-
   </div>
 </header>
 <article>
   <div class="container">
+    <br><br>
     <div class="about">
       <h2>Meet Joy</h2>
-       <hr><br>
-        <p>Joy is a User Interface and User Design Specialist. She loves the front end design of interfaces and cares greatly about her users. Joy is always looking for ways to make her User Experience skills elicit simple design, easy to use and learn user interfaces.
+        <p>Joy is a User Interface and User Design Specialist. She loves the front end design of simple interfaces and cares greatly about her users. Joy is always looking for ways to make her User Experience skills elicit simple user interface design, that is easy to learn and use.
         </p>
         <p>
-        Joy resides in Lagos, Nigeria. In her spare time she's an avid reader, foodie, occasional gamer, traveler and explorer. Her desire is to skydive someday and travel each continent in the world.</p>
+        Joy resides in Lagos, Nigeria. In her spare time she's an avid reader, foodie, occasional gamer, traveler and explorer. She wants to skydive someday and also travel each continent in the world.</p>
     </div>
     <div class="portfolio" >
-      <h2 class="posts" style="">Design</h2>
-        <hr>
+      <br>
+      <h2 class="posts">Design</h2>
         <div class="portfolio-images">
           <div class="floating-box">
              <img src="images/ifygem.jpeg" width="320" height="400">
@@ -41,7 +40,6 @@ layout: default
     </div>
     <br>
     <h2>Skills and Tools</h2>
-    <hr>
       <ul>
         <li>HTML (5)</li>
         <li>Javascript / Jquery</li>
@@ -57,9 +55,8 @@ layout: default
         <li>Illustrator</li>
         <li>Balsamiq</li>
       </ul>
+    <br>
     <h2>Write Ups</h2>
-    <hr>
-
     <ul class="posts">
       {% for post in site.posts %}
         <li>
