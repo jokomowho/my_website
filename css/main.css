@@ -127,7 +127,7 @@ header .container {
 @media screen and (min-width: 961px){
   #home-header .container {
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -398,7 +398,7 @@ article .content{
   margin-top: 1.8em;
 }
 h3.style{
-  color:#777; font-family: 'Oxygen', serif; font-style:; font-size:18px; font-weight:100; margin-top:.5em;
+  color:#777; font-family: 'Oxygen', serif; font-style:; font-size:17px; font-weight:100; margin-top:.5em; margin-bottom: .5em;
 }
 div.style-element{
   background:#f5f5f5; padding:30px; border-radius:4px;
