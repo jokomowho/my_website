@@ -6,4 +6,4 @@ sidebar_image: /images/cover.jpg
 # Build settings
 markdown: redcarpet
 highlighter: pygments
-baseurl: /my_website # the subpath of your site, e.g. /blog/
+baseurl: https://github.com/jokomowho/my_website # the subpath of your site, e.g. /blog/
