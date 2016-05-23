@@ -1,0 +1,65 @@
+﻿/*
+picMarque v1.0.0
+Author: Spring Wang 
+Git: https://github.com/YiquanWang/jquery.picMarque
+
+Copyright 2014 Spring Wang
+Licensed under the MIT license: http://www.opensource.org/licenses/mit-license.php
+
+*/
+
+.marque-box {
+    overflow: hidden;
+    margin: 0 auto;
+    height:340px;
+}
+
+.marque-box .marque-main {
+    width: 1100px;
+    float: left;
+}
+
+.marque-box .marque-main ul {
+    padding: 15px 0 0;
+    margin: 0;
+    background-color: transparent;
+}
+
+.marque-box .marque-main ul li {
+    float: left;
+    margin: 0 34px 0 0 ;
+    _display: inline;
+    padding: 0;
+    list-style: none outside none;
+}
+
+.marque-box .marque-main ul li a {
+    display: block;
+    width: auto;
+    height: 300px;
+    padding: 0;
+    /*border: 1px solid #e5e5e5;*/
+    box-shadow:  0 10px 30px 3px rgba(0,0,0,0.15);
+  -webkit-box-shadow:  0 10px 30px 3px rgba(0,0,0,0.15);
+  -o-box-shadow:  0 10px 30px 3px rgba(0,0,0,0.15);
+}
+
+.marque-box .marque-main ul li a img {
+    width: ;
+    height: ;
+}
+
+.marque-box .marque-main ul li .splendid-links {
+    line-height: 18px;
+    margin: 10px 0 9px 0;
+    font-size: 13px;
+    white-space: nowrap;
+    word-break: keep-all;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+    text-align: left;
+    background-color: #fff;
+    font-weight: 300;
+    padding-left:1em;
+}

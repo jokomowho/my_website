@@ -12,6 +12,7 @@
   <!-- CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}/css/reset.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/jquery.picMarque.css">
 
   <!-- Fonts -->
   <link href='http://fonts.googleapis.com/css?family=Bitter:400,700,400italic|Open+Sans:400italic,600italic,400,600' rel='stylesheet' type='text/css'>
@@ -19,5 +20,46 @@
 </head>
 <body>
   {{ content }}
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="{{ site.baseurl }}/css/jquery.picMarque.js"></script>
+<script type="text/javascript">
+      $(document).ready(function(){
+        var picData = [      //image data（json），param：image（image path），title（image title），link（image link）
+                  {
+                    image:'images/diakrino.jpg',
+                    title:'image title 1',
+                    link:'#'
+                  },
+                  {
+                    image:'images/br-design.jpeg',
+                    title:'image title 2',
+                    link:'#'
+                  },
+                  {
+                    image:'images/Final-fitness-tips.jpg',
+                    title:'image title 3',
+                    link:'#'
+                  },
+                  {
+                    image:'assessment.png',
+                    title:'image title 4',
+                    link:'#'
+                  }]
+
+        // init pic
+        $("#marquePic").picMarque({
+          speed: 60,//scroll speed（ms）
+          errorimg: 'http://www.siaa.org.cn/style/common/nophoto.jpg',//error image path
+          data: picData
+        })
+
+        // init pic for template
+        $("#marquePic2").picMarque({
+          speed: 60,//scroll speed（ms）
+          errorimg: 'http://www.siaa.org.cn/style/common/nophoto.jpg',//error image path
+        })
+      });
+ 
+    </script>
 </body>
 </html>
