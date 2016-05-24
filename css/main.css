@@ -310,7 +310,7 @@ article p {
 }
 
 article li {
-  margin-left: 3em;
+  margin-left: .5em;
   margin-bottom: 9px;
   list-style-type: disc;
 }
