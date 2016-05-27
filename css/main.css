@@ -397,6 +397,16 @@ article .content{
 .content-child{
   margin-top: 1.8em;
 }
+article .content>h2{
+  font-weight: 400;
+}
+.content-link{
+  text-decoration: none;
+  border-bottom: 1px dashed #000;
+}
+.content-link:hover{
+  text-decoration: none;
+}
 h3.style{
   color:#777; font-family: 'Oxygen', serif; font-style:; font-size:17px; font-weight:100; margin-top:.5em; margin-bottom: .5em;
 }
