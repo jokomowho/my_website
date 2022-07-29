@@ -374,7 +374,7 @@ hr {
 }
 .floating-box:first-child{
   margin-left:5px;
-}
+}/**
 .floating-box:hover{
   box-shadow:  0 10px 30px 3px rgba(0,0,0,0.15);
   -webkit-box-shadow:  0 10px 30px 3px rgba(0,0,0,0.15);
@@ -385,7 +385,7 @@ hr {
     transition: all 1s ease-in-out;
   color: #727272;
   transform: perspective( 600px ) rotateY( 45deg );
-}
+}*/
 .floating-box p{padding-left:1em; font-weight:300; background:#fff; font-size:13px;}
 .portfolio-images{
   width:100%;
