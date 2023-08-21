@@ -354,7 +354,7 @@ hr {
 }
 .top-container{
   height:100%; width:100%;
-  background-color: rgba(245, 245, 245, .95);
+  background-color: rgba(245, 245, 245, .97);/*rgba(93, 89, 171, 1)*/
 }
 .floating-box {
     display: inline-block;
@@ -411,9 +411,9 @@ article .content>h2{
 h3.style, h3.style a{
   color:#777; font-family: 'Oxygen', serif; font-style:; font-size:17px; font-weight:100; margin-top:.5em; margin-bottom: .5em;
 }
-h3.style a, a.style, a.style:hover{border-bottom: 1px dashed #777; text-decoration: none;}
+h3.style a, a.style, a.style:hover{border-bottom: 1px solid #777; text-decoration: none;}
 div.style-element{
-  background:#fff; padding:30px; border-radius:4px;
+  background:rgba(245, 245, 245, .95); padding:30px; border-radius:4px;
 }
 .img-style{
   /**border:3px solid #f5f5f5; **/width:100%; border-radius:5px;
