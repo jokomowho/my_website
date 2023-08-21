@@ -354,7 +354,7 @@ hr {
 }
 .top-container{
   height:100%; width:100%;
-  background-color: rgba(245, 245, 245, .97);/*rgba(93, 89, 171, 1)*/
+  background-color: rgba(245, 245, 245, .95);/*rgba(93, 89, 171, 1)*/
 }
 .floating-box {
     display: inline-block;
