@@ -454,3 +454,19 @@ h3 a.side-menu{
   border-radius: 10px; /* Rounded corners */
   font-size: 18px; /* Increase font size */
 }
+.mybutton {
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #e05ca2; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  text-decoration: none;
+}
+a.mybutton:hover{
+  text-decoration: none;
+}
