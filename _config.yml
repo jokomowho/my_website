@@ -1,7 +1,7 @@
 # Site settings
 title: 'Joy Mcleod' # Your Title
 tagline: 'UI · UX Design, UI · UX Enthusiast, Front End Development, Consultant, Tech lover,  NASA Fan.' # A brief tagline for your site
-sidebar_image: /images/cover.jpg
+sidebar_image: /images/full-pic.jpg
 
 # Build settings
 markdown: kramdown
