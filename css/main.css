@@ -79,6 +79,7 @@ article {
 @media (max-width: 960px) {
   article {
     display: block;
+    padding-top: 120px;
   }
   .container {
     padding: 25px;
@@ -106,7 +107,34 @@ header {
   }
   header {
     height: auto;
+    background-image: none !important;
+    position: fixed;
   }
+  h3 a.side-menu{
+  display: inline-block !important;
+  padding-right: 10px;
+  }
+  a.side-menu img{
+    display: none;
+  }
+  #home-header .container{
+    padding: 0 !important;
+  }
+  .mobile-header{
+    display: none !important;
+  }
+  /*
+  .top-container{
+   background-color:#fff !important;
+ }**/
+ .mobile-title{
+  display: inline-block !important;
+  font-weight: light;
+ }
+ h3.style, h3.style a{
+  margin-top: .2em !important;
+  margin-bottom: 0 !important;
+ }
 }
 
 header:after {
