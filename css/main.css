@@ -90,7 +90,7 @@ article {
 
 header {
   position: relative;
-  width: 35%;
+  width: 30%;
   background-repeat: no-repeat;
   background-position: center left;
   -webkit-background-size: cover;
@@ -314,7 +314,7 @@ header ul.meta li span {
 /* Article */
 
 article {
-  width: 65%;
+  width: 70%;
   overflow-x: hidden;
   background-color: #fff;
 }
@@ -393,7 +393,7 @@ hr {
 }
 .top-container{
   height:100%; width:100%;
-  background-color: rgba(93, 89, 171, .89);
+  background-color: rgba(93, 89, 171, .98);
 }
 .floating-box {
     display: inline-block;
