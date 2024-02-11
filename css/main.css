@@ -135,6 +135,11 @@ header {
   margin-top: .2em !important;
   margin-bottom: 0 !important;
  }
+ .mySlides img{
+  width: 400px;
+  height: auto;
+ }
+
 }
 
 header:after {
@@ -182,6 +187,12 @@ header .container {
     padding: 0 50px;
   }
   #myBtn{display: none;}
+  .skills{
+    display:inline-block; vertical-align:top; width: 47%;
+  }
+  .skills:last-child{
+     padding-left:2em;
+  }
 }
 
 @media screen and (max-width: 960px){
@@ -393,7 +404,10 @@ hr {
 }
 .top-container{
   height:100%; width:100%;
-  background-color: rgba(93, 89, 171, .98);
+  background-color: rgba(224, 92, 162, .99); /*rgba(93, 89, 171, .98)*/
+  /*background-image: url('/images/bg.png');
+  background-position: bottom center;
+  background-repeat: no-repeat;*/
 }
 .floating-box {
     display: inline-block;
