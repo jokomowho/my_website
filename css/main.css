@@ -404,7 +404,7 @@ hr {
 }
 .top-container{
   height:100%; width:100%;
-  background-color: rgba(224, 92, 162, .99); /*rgba(93, 89, 171, .98)*/
+  background-color: /*rgba(224, 92, 162, .99); */ rgba(93, 89, 171, .98);
   /*background-image: url('/images/bg.png');
   background-position: bottom center;
   background-repeat: no-repeat;*/
