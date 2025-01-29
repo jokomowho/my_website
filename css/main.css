@@ -404,7 +404,7 @@ hr {
 }
 .top-container{
   height:100%; width:100%;
-  background-color: /*rgba(224, 92, 162, .99); */ rgba(93, 89, 171, .98);
+  background-color: #202020; /*rgba(224, 92, 162, .99); rgba(93, 89, 171, .98);
   /*background-image: url('/images/bg.png');
   background-position: bottom center;
   background-repeat: no-repeat;*/
@@ -475,6 +475,9 @@ div.style-element{
 }
 h3 a.side-menu{
   display: block;
+}
+h3 a.side-menu:hover{
+  text-decoration: underline;
 }
 .side-menu img{
   width: 20px;
