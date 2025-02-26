@@ -1,0 +1,89 @@
+---
+layout: default
+---
+
+<header id="home-header" style="background-image: url({{ site.baseurl }}{{ site.sidebar_image }});">
+  <div class="top-container" >
+    <div class="container">
+       <div class="style-element">
+        <!--<img src="images/Joy-Profile-Sketch-Image.jpeg" class="img-style"><br>-->
+        <!--<img src="images/logo.png" class="img-style">-->
+          <h1 style="font-family:lobster">{{ site.title }} <span style="display: none;" class="mobile-title"> &middot; Sr/Lead UX </span></h1>
+          <h3 class="style mobile-header" style="margin-bottom: 1.5em;">Senior UX &middot; Lead UX  &middot; Principal UX</h3>
+          <h3 class="style">
+            <a href="index.html" class="side-menu"><img src="images/home.png" > Home</a> 
+            <a href="about.html" class="side-menu"><img src="images/info.png" > Skills and Tools</a>
+            <a href="case-studies.html" class="side-menu active" style="font-weight: bold;"><img src="images/portfolio.png"> Portfolio Case Studies</a> 
+            <a href="https://www.jmcleod.me/images/resume-branding.pdf" target="_blank" class="side-menu"><img src="images/resume.png" > Resume Brand</a>
+            <!--<a href="#" > Contact Me</a><br>-->
+          </h3>
+        </div>
+    </div>
+  </div>
+</header>
+<article>
+  <div class="container">
+     <div class="writing content">
+        <h2>Portfolio Case Studies</h2>
+        <hr>
+            <ul class="posts content-child">
+                <li>
+                  <h2><a href="stardot.html">SDE Workflow Solution</a></h2>
+                  <span class="meta">
+                    StarDot is an organization’s intranet web based product aiming to produce a mini information architecture webpage for a specific organization that will serve as a centralized base linking to all of the organization’s workplace productivity resources. These resources include but are not limited to; accessing documents
+                    remotely, productivity tools, communication, collaboration, workflow tools, e.t.c
+                  </span>
+                  <div class="portfolio-images content-child">
+                    <div class="mySlides">
+                      <img src="images/start.svg"  width="850" height="auto">
+                      <p>&nbsp;</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <h2><a href="dk.html">DK Rino Case Study Solution</a></h2>
+                  <span class="meta">
+                    Organizations and environmental researchers need an intuitive way to explore, compare, and understand environmental dispersion modeling software. However, existing platforms often present information in a technical, text-heavy manner, making it difficult for potential users to grasp key features, applications, and benefits.
+                  </span>
+                  <div class="portfolio-images content-child">
+                    <div class="mySlides">
+                      <img src="images/diakrino.svg"  width="850" height="auto">
+                      <p>&nbsp;</p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <h2><a href="mtgold.html">MG Analytical Solution</a></h2>
+                  <span class="meta">
+                    The MG Analytical Dashboard is a comprehensive web and mobile application designed to provide an in-depth view of health center performance across a country. Tailored to meet the needs of health professionals, administrators, and policy makers, this tool helps users track key metrics on a regional, state, and individual health center level.
+                  </span>
+                  <div class="portfolio-images content-child">
+                    <div class="mySlides">
+                      <img src="images/smol.svg"  width="850" height="auto">
+                      <p>&nbsp;</p>
+                    </div>
+                  </div>
+                </li>
+            </ul>
+            </ul>
+          </div>
+        </div>
+         
+      </div>
+  </div>
+   
+</article>
+<script>
+  function checkPassword() {
+    var password = prompt("Enter the password:");
+    if (password !== "Pocview?02") {
+      alert("Incorrect password!");
+      window.location.href = "error.html"; // Redirect if wrong
+    }
+  }
+</script>
+<!--
+<body onload="checkPassword()">
+  --<h1>Protected Content</h1>
+  <p>This page is password-protected.</p>
+</body>-->
