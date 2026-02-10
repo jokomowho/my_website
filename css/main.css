@@ -37,7 +37,7 @@ h1 {
 h2 {
   font-family: 'Ubuntu', serif;
   font-weight: 300;
-  font-size: 24px;
+  font-size: 28px;
   margin-bottom: 10px;
   margin-top: 20px;
   color: #e05ca2;/*#444*/
@@ -351,12 +351,14 @@ article .container {
 article p {
   margin-bottom: 1em;
   color: #444;
+  font-size: 18px;
 }
 
 article li {
   margin-left: .5em;
   margin-bottom: 9px;
   list-style-type: disc;
+  font-size: 18px;
 }
 
 @media (max-width: 960px) {
@@ -391,7 +393,8 @@ ul.posts p {
   margin-bottom: 36px;
 }
 ul.posts li h2 {
-  font-size: 21px;
+  font-size: 22px;
+  font-weight: 400;
 }
 ul.skills{
   padding-left:1.5em; 
@@ -407,7 +410,7 @@ hr {
 }
 .top-container{
   height:100%; width:100%;
-  background-color:#202020; /* #C31973; #202020; /*rgba(224, 92, 162, .99); rgba(93, 89, 171, .98);
+  background-color: #000;/*#202020; /*rgba(224, 92, 162, .99); rgba(93, 89, 171, .98);
   /*background-image: url('/images/bg.png');
   background-position: bottom center;
   background-repeat: no-repeat;*/
@@ -466,7 +469,7 @@ article .content>h2{
   text-decoration: none;
 }
 h3.style, h3.style a{
-  color:#fff; font-family: 'Oxygen', serif; font-style:; font-size:17px; font-weight:100; margin-top:.75em; margin-bottom: .75em;
+  color:#fff; font-family: 'Oxygen', serif; font-style:; font-size:24px; font-weight:100; margin-top:.75em; margin-bottom: .75em;
 }
 h3.style a, a.style, a.style:hover{text-decoration: none;}
 h3 a.active{font-weight: bold !important;}
@@ -483,8 +486,8 @@ h3 a.side-menu:hover{
   text-decoration: underline;
 }
 .side-menu img{
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   vertical-align: text-bottom;
 }
 #myBtn {
